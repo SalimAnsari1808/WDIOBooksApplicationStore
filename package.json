@@ -1,0 +1,23 @@
+{
+  "name": "BooksApplicationStore",
+  "version": "1.0.0",
+  "description": "Practice Webapplication of Book Store",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/wdio ./wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "Salim Ansari",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^6.8.0",
+    "@wdio/local-runner": "^6.8.0",
+    "@wdio/mocha-framework": "^6.8.0",
+    "@wdio/spec-reporter": "^6.7.0",
+    "@wdio/sync": "^6.8.0",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^86.0.0",
+    "wdio-chromedriver-service": "^6.0.4"
+  }
+}
